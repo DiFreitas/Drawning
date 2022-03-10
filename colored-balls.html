@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/canvas.css">
+    <title>Drawning</title>
+</head>
+
+<body>
+    <header>
+        <h1>Drawning!</h1>
+    </header>
+    <main>
+        <div class="board">
+            <div class="itens">
+                <ul>
+                    <li>
+                        <label for="canvasColor">Backround Color</label>
+                        <input id="canvasColor" type="color">
+                    </li>
+                    <li>
+                        <label for="color">Brush Color</label>
+                        <input id="color" type="color">
+                    </li>
+                    <li>
+                        <label for="size">Brush size</label>
+                        <input id="size" type="number" min="5" value="10">
+                    </li>
+                    <li>
+                        <label for="clear"></label>
+                        <button id="clear" type="button">Limpar</button>
+                    </li>
+                </ul>
+
+            </div>
+
+            <canvas width="1920" height="1080"></canvas>
+        </div>
+
+    </main>
+    <script src="js/canvas.js"></script>
+</body>
+
+</html>
