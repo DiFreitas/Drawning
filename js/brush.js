@@ -1,4 +1,5 @@
 let drawning = false;
+
 function draw(paint) {
 
     const x = paint.pageX - screen.offsetLeft;
